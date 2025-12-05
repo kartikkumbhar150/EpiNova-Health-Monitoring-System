@@ -1,0 +1,167 @@
+{
+  "common": {
+    "appName": "EpiNova",
+    "loading": "Loading...",
+    "submit": "Lanchí",
+    "clear": "Suktunɨ",
+    "save": "Kedam",
+    "cancel": "Kanchè",
+    "ok": "Ekè",
+    "yes": "Utɨ",
+    "no": "Matɨ",
+    "success": "Raanè",
+    "error": "Galti"
+  },
+  "tabs": {
+    "learn": "Jeene",
+    "report": "Ripoot",
+    "waterQuality": "Ii Gunchenɨ",
+    "map": "Naksa",
+    "admin": "Sahab"
+  },
+  "profileMenu": {
+    "profile": "Nɨnɨ Jiinam",
+    "notifications": "Khabardaarɨ",
+    "changeLanguage": "Konam Solè",
+    "signOut": "Bahar Hone"
+  },
+  "languageSelector": {
+    "title": "Konam Solè",
+    "english": "English",
+    "hindi": "हिन्दी",
+    "galo": "Galo"
+  },
+  "waterQuality": {
+    "title": "Ii Gunchenɨ Jaanch",
+    "subtitle": "West Siang Jimong, Arunachal Pradesh",
+    "village": "Korang",
+    "selectVillage": "Korang solè...",
+    "waterParameters": "Ii Mapdand",
+    "chemicalParameters": "Rasayan Mapdand",
+    "environmentalParameters": "Parivesh Mapdand",
+    "assessmentLevels": "Jaanch Dari",
+    "submit": "Ii Gunchenɨ Data Lanchí",
+    "clear": "Form Suktunɨ",
+    "success": "Ii gunchenɨ data raanè bhejɨ galɨ!",
+    "validationError": "Jaruri field bharnɨ chahiye"
+  },
+  "chat": {
+    "title": "Swasthya Sahayak",
+    "subtitle": "Hamesha madad ke liye",
+    "placeholder": "Apnɨ baat likhè...",
+    "typing": "Sahayak type kar raha hai...",
+    "welcome": "Namaskar! Main aapka swasthya sahayak hun. Aaj main aapki kaise madad kar sakta hun?",
+    "error": "Maaf kariye, mujhe abhi connect karne mein pareshani ho rahi hai. Kripa kar baad mein try kariye."
+  },
+  "admin": {
+    "title": "Admin Dashboard",
+    "subtitle": "Swasthya Nigrani Pranali",
+    "totalReports": "Kul Riport",
+    "highRiskVillages": "Khatre Wale Gaon",
+    "topAffected": "Sabse Prabhavit",
+    "mostCases": "Sabse Jyada Case",
+    "viewAnalytics": "Analysis Dekhe",
+    "generateReport": "Riport Banaye"
+  },
+  "learning": {
+    "headerTitle": "Adi health ado tokka knowledge",
+    "sectionTitle": "Health Siknam",
+    "readTime": "min tonam",
+    "featured": {
+      "title": "Apo community ko knowledge yajin hinam",
+      "description": "Rural living ko liye hygiene, disease prevention, safe water practices ko important information. Informed tonam, healthy tonam.",
+      "category": "Health Education"
+    },
+    "categories": {
+      "hygiene": {
+        "title": "Health ko liye basic hygiene",
+        "description": "Hand washing aro food safety nisit simple practices"
+      },
+      "firstAid": {
+        "title": "Essential First Aid Skills",
+        "description": "Emergency ko liye basic first aid techniques ko quick guide"
+      },
+      "waterSafety": {
+        "title": "Safe drinking water hinam",
+        "description": "Water purify hinam methods aro local water sources tonam"
+      },
+      "diseasePrevention": {
+        "title": "Common diseases tonam",
+        "description": "Symptoms identify hinam, transmission prevent hinam information"
+      },
+      "nutrition": {
+        "title": "Family ko liye healthy eating",
+        "description": "Local available foods use karke balanced nutrition ko tips"
+      },
+      "maternalHealth": {
+        "title": "Maternal & Child Health",
+        "description": "Pregnancy aro early childhood ko essential care"
+      }
+    },
+    "difficulty": {
+      "basic": "Basic",
+      "intermediate": "Medium",
+      "advanced": "Hard"
+    }
+  },
+  "map": {
+    "title": "Health Dashboard Map",
+    "subtitle": "Disease activity heatmap aro ASHA karkar location",
+    "loading": "Map loading hore...",
+    "legend": {
+      "diseaseActivity": "Rog Activities",
+      "veryHigh": "Bahut jyada",
+      "high": "Jyada",
+      "moderate": "Thik thak",
+      "low": "Kam",
+      "veryLow": "Bahut kam"
+    }
+  },
+  "report": {
+    "authRequired": "Authentication lage",
+    "form": {
+      "title": "Rog Report Form",
+      "reportedBy": "Report karane wala",
+      "sections": {
+        "patientInfo": "Rogi jo jaankari"
+      },
+      "fields": {
+        "patientName": "Rogi jo nam",
+        "patientAge": "Rogi jo umar",
+        "location": "Jaga (GPS)",
+        "symptoms": "Lakshan",
+        "onsetDate": "Lakshan suuru hone jo din",
+        "severity": "Lakshan jo gambhirta",
+        "description": "Lakshan jo puura bibaaran",
+        "waterSource": "Paane ke pani jo jagaa"
+      },
+      "placeholders": {
+        "patientName": "Rogi jo puura naam likho",
+        "patientAge": "Rogi jo umar likho (jaise, 25)",
+        "description": "Lakshan jo details me bataao..."
+      },
+      "buttons": {
+        "captureLocation": "Abhi ke jaga capture karo",
+        "capturing": "Capture hore...",
+        "submit": "Rog Report bhejo",
+        "submitting": "Bheje hore..."
+      },
+      "validation": {
+        "error": "Validation Error",
+        "permissionDenied": "Permission nahi mila",
+        "locationPermissionRequired": "GPS coordinates capture karne ke liye location permission lage.",
+        "locationCaptured": "Location successfully capture hogaya!",
+        "locationCaptureFailed": "Location capture me problem. Please try again karo.",
+        "patientNameRequired": "Please rogi jo naam likho",
+        "validAgeRequired": "Please valid umar likho (1-150 years)",
+        "locationRequired": "Please GPS location capture karo",
+        "symptomsRequired": "Please kam se kam ek lakshan choose karo",
+        "onsetDateRequired": "Please lakshan start hone jo date choose karo",
+        "severityRequired": "Please lakshan jo severity choose karo",
+        "waterSourceRequired": "Please paane ke paani jo source choose karo",
+        "submitSuccess": "Rog report successfully submit hogaya!",
+        "submitError": "Report submit me problem. Please phir try karo."
+      }
+    }
+  }
+}

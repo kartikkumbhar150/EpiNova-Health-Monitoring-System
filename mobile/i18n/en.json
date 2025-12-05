@@ -1,0 +1,350 @@
+{
+  "common": {
+    "appName": "EpiNova",
+    "loading": "Loading...",
+    "submit": "Submit",
+    "clear": "Clear",
+    "save": "Save",
+    "cancel": "Cancel",
+    "ok": "OK",
+    "yes": "Yes",
+    "no": "No",
+    "success": "Success",
+    "error": "Error"
+  },
+  "tabs": {
+    "learn": "Learn",
+    "report": "Report",
+    "waterQuality": "Water Quality",
+    "map": "Map",
+    "admin": "Admin"
+  },
+  "profileMenu": {
+    "profile": "Your Profile",
+    "notifications": "Notifications",
+    "changeLanguage": "Change Language",
+    "signOut": "Sign Out"
+  },
+  "languageSelector": {
+    "title": "Select Language",
+    "english": "English",
+    "hindi": "हिन्दी",
+    "galo": "Galo"
+  },
+  "waterQuality": {
+    "title": "Water Quality Assessment",
+    "subtitle": "West Siang District, Arunachal Pradesh",
+    "village": "Village",
+    "selectVillage": "Select a village...",
+    "waterParameters": "Water Parameters",
+    "chemicalParameters": "Chemical Parameters",
+    "environmentalParameters": "Environmental Parameters",
+    "assessmentLevels": "Assessment Levels",
+    "submit": "Submit Water Quality Data",
+    "clear": "Clear Form",
+    "success": "Water quality data submitted successfully!",
+    "validationError": "Please fill in all required fields"
+  },
+  "chat": {
+    "title": "Health Assistant",
+    "subtitle": "Always here to help",
+    "placeholder": "Type your message...",
+    "typing": "Assistant is typing...",
+    "welcome": "Hello! I'm your health assistant. How can I help you today?",
+    "error": "Sorry, I'm having trouble connecting right now. Please try again later."
+  },
+  "admin": {
+    "title": "Admin Dashboard",
+    "subtitle": "Health Monitoring System",
+    "totalReports": "Total Reports",
+    "highRiskVillages": "High Risk Villages",
+    "topAffected": "Top Affected",
+    "mostCases": "Most Cases",
+    "viewAnalytics": "View Analytics",
+    "generateReport": "Generate Report"
+  },
+  "learning": {
+    "headerTitle": "Health knowledge for better living",
+    "sectionTitle": "Health Topics",
+    "readTime": "min read",
+    "whatYouLearn": "What You'll Learn",
+    "keyTips": "Key Tips",
+    "contentNotFound": "Learning content not found",
+    "healthEducation": "Health Education",
+    "featured": {
+      "title": "Empower Your Community with Knowledge",
+      "description": "Access vital information on hygiene, disease prevention, and safe water practices tailored for rural living. Stay informed, stay healthy.",
+      "category": "Health Education",
+      "readTime": "5 min read",
+      "introduction": "Welcome to our comprehensive health education platform designed specifically for rural communities and ASHA workers.",
+      "mission": "Our mission is to empower communities with essential health knowledge that can prevent diseases, save lives, and improve overall well-being.",
+      "topics": {
+        "hygiene": "Basic hygiene practices for disease prevention",
+        "firstAid": "Essential first aid skills for emergencies",
+        "safeWater": "Safe water practices and purification methods",
+        "nutrition": "Nutrition guidelines for healthy families",
+        "maternal": "Maternal and child health care",
+        "diseases": "Common disease recognition and prevention"
+      }
+    },
+    "categories": {
+      "hygiene": {
+        "title": "Basic Hygiene for Health",
+        "description": "Simple practices like handwashing and food safety"
+      },
+      "firstAid": {
+        "title": "Essential First Aid Skills",
+        "description": "A quick guide to basic first aid techniques for emergencies"
+      },
+      "waterSafety": {
+        "title": "Ensuring Safe Drinking Water",
+        "description": "Methods for purifying water and understanding local water sources"
+      },
+      "diseasePrevention": {
+        "title": "Understanding Common Diseases",
+        "description": "Information on identifying symptoms, preventing transmission"
+      },
+      "nutrition": {
+        "title": "Healthy Eating for Families",
+        "description": "Tips for balanced nutrition using locally available foods"
+      },
+      "maternalHealth": {
+        "title": "Maternal & Child Health",
+        "description": "Essential care during pregnancy and early childhood"
+      }
+    },
+    "hygiene": {
+      "title": "Basic Hygiene for Health",
+      "description": "Simple practices like handwashing and food safety",
+      "readTime": "5 min read",
+      "content": {
+        "introduction": "Proper hygiene is the foundation of good health and disease prevention in rural communities.",
+        "sections": {
+          "handHygiene": {
+            "title": "Hand Hygiene",
+            "content": "Wash your hands frequently with soap and clean water for at least 20 seconds, especially before eating, after using the toilet, and after handling animals or waste."
+          },
+          "foodSafety": {
+            "title": "Food Safety",
+            "content": "Keep food covered, cook thoroughly, and store leftovers properly. Wash fruits and vegetables before consumption."
+          },
+          "personalCleanliness": {
+            "title": "Personal Cleanliness",
+            "content": "Bathe regularly, keep nails trimmed and clean, brush teeth twice daily, and wear clean clothes."
+          }
+        },
+        "keyTips": {
+          "tip1": "Use soap and clean water for handwashing",
+          "tip2": "Cover food to protect from flies and contamination",
+          "tip3": "Boil water if you're unsure about its safety",
+          "tip4": "Keep living areas clean and well-ventilated"
+        }
+      }
+    },
+    "first-aid": {
+      "title": "Essential First Aid Skills",
+      "description": "A quick guide to basic first aid techniques for emergencies",
+      "readTime": "6 min read",
+      "content": {
+        "introduction": "Basic first aid knowledge can save lives in emergency situations when professional medical help is not immediately available.",
+        "sections": {
+          "woundCare": {
+            "title": "Wound Care",
+            "content": "Clean hands first, stop bleeding with direct pressure, clean wound gently with clean water, apply antiseptic if available, and cover with clean bandage."
+          },
+          "burns": {
+            "title": "Burns Treatment",
+            "content": "Cool the burn with clean, cool water for 10-15 minutes. Do not use ice. Remove jewelry before swelling occurs. Cover with clean, dry cloth."
+          },
+          "fever": {
+            "title": "Fever Management",
+            "content": "Give plenty of fluids, use cool compresses on forehead, remove excess clothing, and seek medical help if fever persists or exceeds 103°F (39.4°C)."
+          }
+        },
+        "keyTips": {
+          "tip1": "Always clean your hands before providing first aid",
+          "tip2": "Call for professional medical help when possible",
+          "tip3": "Keep a basic first aid kit readily available",
+          "tip4": "Know when to seek immediate medical attention"
+        }
+      }
+    },
+    "water-safety": {
+      "title": "Ensuring Safe Drinking Water",
+      "description": "Methods for purifying water and understanding local water sources",
+      "readTime": "8 min read",
+      "content": {
+        "introduction": "Access to safe drinking water is essential for preventing waterborne diseases and maintaining good health.",
+        "sections": {
+          "purification": {
+            "title": "Water Purification Methods",
+            "content": "Boil water for at least 1 minute, use water purification tablets, or employ simple filtration methods using clean cloth and sand."
+          },
+          "storage": {
+            "title": "Water Storage",
+            "content": "Store purified water in clean, covered containers. Clean storage containers regularly with soap and safe water."
+          },
+          "protection": {
+            "title": "Source Protection",
+            "content": "Protect water sources from contamination by keeping animals and waste away from wells and water bodies."
+          }
+        },
+        "keyTips": {
+          "tip1": "Boiling is the most reliable method of water purification",
+          "tip2": "Store water in clean, covered containers",
+          "tip3": "Protect water sources from contamination",
+          "tip4": "Test water quality regularly if possible"
+        }
+      }
+    },
+    "disease-prevention": {
+      "title": "Understanding Common Diseases",
+      "description": "Information on identifying symptoms, preventing transmission",
+      "readTime": "7 min read",
+      "content": {
+        "introduction": "Understanding common diseases helps in early recognition, prevention, and seeking appropriate treatment.",
+        "sections": {
+          "waterborne": {
+            "title": "Waterborne Diseases",
+            "content": "Diarrhea, cholera, and typhoid spread through contaminated water. Symptoms include stomach pain, vomiting, and loose stools."
+          },
+          "vectorborne": {
+            "title": "Vector-borne Diseases",
+            "content": "Malaria, dengue, and chikungunya spread through mosquito bites. Prevent by eliminating standing water and using bed nets."
+          },
+          "respiratory": {
+            "title": "Respiratory Infections",
+            "content": "Common cold, flu, and tuberculosis spread through air droplets. Cover mouth when coughing or sneezing."
+          }
+        },
+        "keyTips": {
+          "tip1": "Practice good hygiene to prevent disease transmission",
+          "tip2": "Seek medical attention for persistent symptoms",
+          "tip3": "Vaccinate according to recommended schedules",
+          "tip4": "Report unusual disease patterns to health authorities"
+        }
+      }
+    },
+    "nutrition": {
+      "title": "Healthy Eating for Families",
+      "description": "Tips for balanced nutrition using locally available foods",
+      "readTime": "6 min read",
+      "content": {
+        "introduction": "Good nutrition supports immune function and overall health, especially important for growing children and pregnant women.",
+        "sections": {
+          "balanced": {
+            "title": "Balanced Diet Basics",
+            "content": "Include grains, vegetables, fruits, proteins (dal, eggs, meat), and dairy in daily meals. Eat a variety of colorful foods."
+          },
+          "child": {
+            "title": "Child Nutrition",
+            "content": "Breastfeed exclusively for first 6 months, introduce complementary foods gradually, and ensure adequate protein for growth."
+          },
+          "safety": {
+            "title": "Food Safety",
+            "content": "Store food properly, cook thoroughly, consume fresh foods when possible, and maintain kitchen hygiene."
+          }
+        },
+        "keyTips": {
+          "tip1": "Eat a variety of foods for complete nutrition",
+          "tip2": "Include iron-rich foods like green leafy vegetables",
+          "tip3": "Ensure children receive adequate calories for growth",
+          "tip4": "Practice proper food storage and preparation"
+        }
+      }
+    },
+    "maternal-health": {
+      "title": "Maternal & Child Health",
+      "description": "Essential care during pregnancy and early childhood",
+      "readTime": "10 min read",
+      "content": {
+        "introduction": "Proper care during pregnancy and early childhood lays the foundation for lifelong health and development.",
+        "sections": {
+          "prenatal": {
+            "title": "Prenatal Care",
+            "content": "Regular check-ups, proper nutrition, iron and folic acid supplements, and avoiding harmful substances during pregnancy."
+          },
+          "delivery": {
+            "title": "Safe Delivery",
+            "content": "Plan for skilled birth attendance, prepare for emergency complications, and ensure clean delivery environment."
+          },
+          "newborn": {
+            "title": "Newborn Care",
+            "content": "Immediate breastfeeding, keeping baby warm, cord care, and recognizing danger signs in newborns."
+          }
+        },
+        "keyTips": {
+          "tip1": "Start prenatal care early in pregnancy",
+          "tip2": "Take iron and folic acid supplements as prescribed",
+          "tip3": "Plan for skilled birth attendance",
+          "tip4": "Recognize and respond to danger signs promptly"
+        }
+      }
+    },
+    "difficulty": {
+      "basic": "Basic",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced"
+    }
+  },
+  "map": {
+    "title": "Health Dashboard Map",
+    "subtitle": "Disease activity heatmap and ASHA worker locations",
+    "loading": "Loading map...",
+    "legend": {
+      "diseaseActivity": "Disease Activity",
+      "veryHigh": "Very High",
+      "high": "High",
+      "moderate": "Moderate",
+      "low": "Low",
+      "veryLow": "Very Low"
+    }
+  },
+  "report": {
+    "authRequired": "Authentication required",
+    "form": {
+      "title": "Disease Report Form",
+      "reportedBy": "Reported by",
+      "sections": {
+        "patientInfo": "Patient Information"
+      },
+      "fields": {
+        "patientName": "Patient Name",
+        "patientAge": "Patient Age",
+        "location": "Location (GPS)",
+        "symptoms": "Symptoms",
+        "onsetDate": "Symptom Onset Date",
+        "severity": "Symptom Severity",
+        "description": "Free-text Symptom Description",
+        "waterSource": "Drinking Water Source"
+      },
+      "placeholders": {
+        "patientName": "Enter patient's full name",
+        "patientAge": "Enter patient age (e.g., 25)",
+        "description": "Describe symptoms in detail..."
+      },
+      "buttons": {
+        "captureLocation": "Capture Current Location",
+        "capturing": "Capturing...",
+        "submit": "Submit Disease Report",
+        "submitting": "Submitting..."
+      },
+      "validation": {
+        "error": "Validation Error",
+        "permissionDenied": "Permission Denied",
+        "locationPermissionRequired": "Location permission is required to capture GPS coordinates.",
+        "locationCaptured": "Location captured successfully!",
+        "locationCaptureFailed": "Failed to capture location. Please try again.",
+        "patientNameRequired": "Please enter patient name",
+        "validAgeRequired": "Please enter a valid age (1-150 years)",
+        "locationRequired": "Please capture GPS location",
+        "symptomsRequired": "Please select at least one symptom",
+        "onsetDateRequired": "Please select symptom onset date",
+        "severityRequired": "Please select symptom severity",
+        "waterSourceRequired": "Please select drinking water source",
+        "submitSuccess": "Disease report submitted successfully!",
+        "submitError": "Failed to submit report. Please try again."
+      }
+    }
+  }
+}

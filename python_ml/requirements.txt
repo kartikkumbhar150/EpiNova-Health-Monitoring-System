@@ -1,0 +1,12 @@
+flask
+python-dotenv
+psycopg2-binary
+torch
+scikit-learn
+pandas
+numpy
+apscheduler
+supabase
+requests
+langdetect
+deep-translator

@@ -1,0 +1,87 @@
+import { pgTable, serial, text, numeric, jsonb, timestamp, varchar, integer, doublePrecision, bigint } from "drizzle-orm/pg-core"
+import { sql } from "drizzle-orm"
+
+
+
+export const diseaseReports = pgTable("disease_reports", {
+	id: serial().primaryKey().notNull(),
+	patientName: text("patient_name").notNull(),
+	ageGroup: text("age_group").notNull(),
+	latitude: numeric({ precision: 10, scale:  8 }),
+	longitude: numeric({ precision: 11, scale:  8 }),
+	locationAccuracy: numeric("location_accuracy", { precision: 10, scale:  2 }),
+	symptoms: jsonb().notNull(),
+	onsetDate: text("onset_date").notNull(),
+	severity: text().notNull(),
+	description: text(),
+	waterSource: text("water_source").notNull(),
+	reportedBy: text("reported_by"),
+	createdAt: timestamp("created_at", { mode: 'string' }).defaultNow(),
+	predictedDisease: varchar("predicted_disease"),
+	state: text(),
+	district: text(),
+	village: text(),
+	phoneNo: text("phone_no"),
+});
+
+export const patientDiseases = pgTable("patient_diseases", {
+	id: serial().primaryKey().notNull(),
+	state: text(),
+	district: text(),
+	village: text(),
+	population: integer(),
+	pinCode: integer("pin_code"),
+	leptospirosis: integer(),
+	norovirus: integer(),
+	legionnairesDisease: integer("legionnaires_disease"),
+	dysenteryBacillary: integer("dysentery_bacillary"),
+	typhoidFever: integer("typhoid_fever"),
+	rotavirus: integer(),
+	cholera: integer(),
+	giardiasis: integer(),
+	dysenteryAmoebic: integer("dysentery_amoebic"),
+	hepatitisE: integer("hepatitis_e"),
+	hepatitisA: integer("hepatitis_a"),
+	schistosomiasis: integer(),
+	cryptosporidiosis: integer(),
+	acuteDiarrhoealDisease: integer("acute_diarrhoeal_disease"),
+	poliomyelitis: integer(),
+	eColiDiarrhea: integer("e_coli_diarrhea"),
+	totalPatients: integer("total_patients").generatedAlwaysAs(sql`(((((((((((((((leptospirosis + norovirus) + legionnaires_disease) + dysentery_bacillary) + typhoid_fever) + rotavirus) + cholera) + giardiasis) + dysentery_amoebic) + hepatitis_a) + hepatitis_e) + schistosomiasis) + cryptosporidiosis) + acute_diarrhoeal_disease) + poliomyelitis) + e_coli_diarrhea)`),
+});
+
+export const environmentalFactors = pgTable("environmental_factors", {
+	state: text(),
+	district: text(),
+	village: text(),
+	rainfallLevel: text("rainfall_level"),
+	humidityLevel: text("humidity_level"),
+	floodRisk: text("flood_risk"),
+	airTemperatureC: doublePrecision("air_temperature_c"),
+	waterPh: doublePrecision("water_ph"),
+	turbidity: doublePrecision(),
+	dissolvedOxygen: doublePrecision("dissolved_oxygen"),
+	bod: doublePrecision(),
+	cod: doublePrecision(),
+	nitrate: doublePrecision(),
+	// You can use { mode: "bigint" } if numbers are exceeding js number limitations
+	fecalColiform: bigint("fecal_coliform", { mode: "number" }),
+	arsenic: doublePrecision(),
+	lead: doublePrecision(),
+	// You can use { mode: "bigint" } if numbers are exceeding js number limitations
+	sanitationCoveragepercent: bigint("sanitation_coveragepercent", { mode: "number" }),
+	sewageTreatmentQuality: text("sewage_treatment_quality"),
+	windSpeedKmh: doublePrecision("wind_speed_kmh"),
+	solarRadiationWm2: doublePrecision("solar_radiation_wm2"),
+	landUseType: text("land_use_type"),
+	wasteManagementQuality: text("waste_management_quality"),
+	// You can use { mode: "bigint" } if numbers are exceeding js number limitations
+	populationDensityPerKm2: bigint("population_density_per_km2", { mode: "number" }),
+	totalDissolvedSolids: doublePrecision("total_dissolved_solids"),
+	chloride: doublePrecision(),
+	sulphate: doublePrecision(),
+	ammonia: doublePrecision(),
+	heavyMetalsIndex: doublePrecision("heavy_metals_index"),
+	waterTemperatureC: doublePrecision("water_temperature_c"),
+	overallRiskLevel: text("overall_risk_level"),
+});

@@ -1,0 +1,1 @@
+ALTER TABLE "disease_reports" ADD COLUMN "phone_no" text NOT NULL;
